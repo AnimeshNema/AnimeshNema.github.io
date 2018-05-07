@@ -20,7 +20,7 @@
 		margin: 0;
 		padding: 0;
 		font-weight: 600;
-		color: #FFF;
+		color: #FFC31F;
 	}
 
 	p, ol, ul
@@ -51,7 +51,8 @@
 	a:hover
 	{
 		text-decoration: none;
-		/* transform: scale(1.1); */ */
+		color: #FFC31F;
+		/* transform: scale(1.1); */
 	}
 
 	.container
@@ -93,8 +94,10 @@
 
 	.image-centered
 	{
-		display: block;
-		margin: 0 0 2em 0;
+		display: inline-block;
+		text-align: center;
+		margin: 0 2em 0em 0;
+		border-radius: 80%;
 	}
 
 	.image-centered img
@@ -121,7 +124,7 @@
 	ul.style1 li
 	{
 		padding: 1.6em 0em 0em 0em;
-		margin: 0 0 5em 0;
+		margin: 0 0 4em 0;
 		border-top: 1px solid;
 	}
 
@@ -147,6 +150,8 @@
 	ul.style1 a:hover
 	{
 		text-decoration: underline;
+		color: #FFC31F;
+		transform: scale(1.1);
 	}
 
 	ul.style1 h3
@@ -234,8 +239,8 @@
 	ul.contact li span
 	{
 		display: none;
-		margin: 0;
-		padding: 0;
+		margin: 0.5em;
+		padding: 0.5em;
 	}
 
 	ul.contact li a
@@ -252,7 +257,7 @@
 		line-height: 40px;
 		border-radius: 20px;
 		text-align: center;
-		color: #FFFFFF;
+		color: #FFF;
 	}
 
 	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
@@ -418,7 +423,7 @@
 		padding-right: 0.5em;
 		text-transform: uppercase;
 		font-size: 0.90em;
-		color: #FFF;
+		color: #FFC31F;
 	}
 
 	#logo span a
@@ -486,7 +491,7 @@
 	#banner
 	{
 		background: url(images/im1.jpg) no-repeat center center;
-		margin-bottom: 4em;
+		margin-bottom: 4em; */
 	}
 
 /*********************************************************************************/
@@ -522,8 +527,8 @@
 	{
 		overflow: hidden;
 		margin-bottom: 3em;
-		padding-top: 5em;
-		border-top: 1px solid rgba(0,0,0,0.08);
+		padding-top: 1.5em;
+		border-top: 1px solid;
 	}
 
 
