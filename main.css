@@ -469,10 +469,10 @@
 		/* transform: scale(1.1); */
 	}
 
-	#menu .current-menu-item a
+	#menu .current_page_item a
 	{
-		/* background: #2980b9; */
-		/* color: rgba(255,255,255,1);/* color: rgba(255,255,255,1); */ */
+		background: #2980b9;
+		color: rgba(255,255,255,1);
 	}
 
 	#menu .icon
