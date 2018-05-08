@@ -23,6 +23,16 @@
 		color: #FFC31F;
 	}
 
+	h4
+	{
+		text-align: left;
+		margin: 0;
+		padding: 0;
+		font-weight: 600;
+		font-size: 16pt;
+		color: #FFC31F;
+	}
+
 	p, ol, ul
 	{
 		margin-top: 0;
@@ -36,7 +46,9 @@
 
 	p
 	{
-		line-height: 180%;
+		/* text-align: center; */
+		text-align: justify;
+		line-height: 150%;
 	}
 
 	strong
@@ -121,7 +133,15 @@
 		color: #FFF
 	}
 
+
 	ul.style1 li
+	{
+		padding: 1.6em 0em 0em 0em;
+		margin: 0 0 4em 0;
+		border-top: 1px solid;
+	}
+
+	ul.style2 li
 	{
 		padding: 1.6em 0em 0em 0em;
 		margin: 0 0 4em 0;
@@ -138,6 +158,7 @@
 	{
 		margin: 0;
 		color: #FFF;
+
 	}
 
 	ul.style1 a
