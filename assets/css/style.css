@@ -291,7 +291,7 @@ text-align: center;}
 }
 .single-about-add-info {
     margin: 20px 0;
-    
+
 }
 .single-about-add-info h3 {
     color: #636a82;
@@ -560,12 +560,13 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         8. Profiles
 --------------------------------------*/
 .profiles {
-    padding:  50px 0 100px;
+    padding:  50px 380px 100px;
     border:  1px solid #e5ebf2;
+
 
 }
 
-.profiles-content {padding-top: 50px; padding-left: 400px;}
+.profiles-content {padding-top: 50px;}
 .profiles-content .col-sm-3{padding:0;}
 .profile-txt {
     display: flex;
