@@ -272,7 +272,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*-------------------------------------
         4.  About
 --------------------------------------*/
-.about {padding: 50px 0 100px;}
+.about {padding: 50px 0 100px;
+text-align: center;}
 .about-content {padding-top: 50px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
@@ -289,7 +290,8 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     border-bottom: 1px solid #999fb3;
 }
 .single-about-add-info {
-    margin: 35px 0;
+    margin: 20px 0;
+    
 }
 .single-about-add-info h3 {
     color: #636a82;
@@ -359,7 +361,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 .education {
     background:  #f9fbfd;
-    padding-top:  2s0px;
+    padding-top:  20px;
 }
 .education-horizontal-timeline {
     padding: 50px 0;
